@@ -20,4 +20,4 @@ connect("mongodb+srv://oladeniifeoluwa123:olawunmi123@ifeapi.ew9rmp5.mongodb.net
 })
 .catch((error) =>{
     console.log(error)
-})
+});

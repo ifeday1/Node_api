@@ -20,6 +20,10 @@ const productSchema = mongoose.Schema(
             required:false
         }
     },
+    {
+        timestamps: true
+    }
+    
 )
 
 const Product = mongoose.model('Product', productSchema)
